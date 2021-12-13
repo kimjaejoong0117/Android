@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sensor1_Value"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/sensor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="센서1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sensor2"
+        app:layout_constraintEnd_toStartOf="@+id/seosor1_Value"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sensor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="센서2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sensor3"
+        app:layout_constraintEnd_toStartOf="@+id/seosor2_Value"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sensor1" />
+
+    <TextView
+        android:id="@+id/sensor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="센서3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/seosor4"
+        app:layout_constraintEnd_toStartOf="@+id/seosor3_Value"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sensor2" />
+
+    <TextView
+        android:id="@+id/seosor4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="센서4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sensor5"
+        app:layout_constraintEnd_toStartOf="@+id/seosor4_Value"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sensor3" />
+
+    <TextView
+        android:id="@+id/sensor5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="센서5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Back2"
+        app:layout_constraintEnd_toStartOf="@+id/seosor5_Value"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seosor4" />
+
+    <TextView
+        android:id="@+id/seosor1_Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="센서값1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sensor1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sensor1"
+        app:layout_constraintTop_toTopOf="@+id/sensor1" />
+
+    <TextView
+        android:id="@+id/seosor2_Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="센서값2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sensor2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sensor2"
+        app:layout_constraintTop_toTopOf="@+id/sensor2" />
+
+    <TextView
+        android:id="@+id/seosor3_Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="센서값3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sensor3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sensor3"
+        app:layout_constraintTop_toTopOf="@+id/sensor3" />
+
+    <TextView
+        android:id="@+id/seosor4_Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="센서값4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/seosor4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/seosor4"
+        app:layout_constraintTop_toTopOf="@+id/seosor4" />
+
+    <TextView
+        android:id="@+id/seosor5_Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="센서값5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sensor5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sensor5"
+        app:layout_constraintTop_toTopOf="@+id/sensor5" />
+
+    <Button
+        android:id="@+id/btn_Back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="96dp"
+        android:text="뒤로"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sensor5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
